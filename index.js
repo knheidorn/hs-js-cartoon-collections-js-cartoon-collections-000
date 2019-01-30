@@ -1,9 +1,13 @@
+//1. name[0] 2. name[1] etc...
+
 function dwarfRollCall(dwarves) {
   var list = "";
   for (let i = 0; i<dwarves.length; i++){
     list += i+1 + ". "+ dwarves[i] + " ";
-  }
-} return(list);
+  } return(list); 
+} 
+
+// ['CALL!', 'CALL2!', etc...]
 
 function summonCaptainPlanet(array){
   var planeteerCalls = array.map(function(x){return x.toUpperCase()});

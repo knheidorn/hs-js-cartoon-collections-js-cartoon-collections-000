@@ -38,7 +38,18 @@ function findTheCheese (array) {
     return "gouda";
   } else if (foodList.includes("camembert")){
     return "camembert";
+  } else if (foodList.includes("goat")) {
+    return "goat";
   } else {
     return "no cheese!";
+  }
+  
+  //
+  function wordsWithB(array) {
+    var bWords = [];
+    for (let i=0; i<array.length; i++) {
+      var theB = array[i].toUpperCase()
+      bWords.push(array[i])
+    }
   }
 }

@@ -22,7 +22,7 @@ function summonCaptainPlanet(array){
 
 function longPlaneteerCalls(array) {
   var wordCount = array.map(function(x){return x.length});
-  function greaterThanFour(element, index, array){
+  function greaterThanFour(element){
     return element > 4;
   } return wordCount.some(greaterThanFour);
 }

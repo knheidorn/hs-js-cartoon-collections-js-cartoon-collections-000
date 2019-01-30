@@ -7,6 +7,7 @@ function dwarfRollCall(dwarves) {
   } return(list); 
 } 
 
+
 // ['CALL!', 'CALL2!', etc...]
 
 function summonCaptainPlanet(array){
@@ -16,7 +17,9 @@ function summonCaptainPlanet(array){
   }return planeteerCalls;
 } 
 
+
 //Boolean 
+
 function longPlaneteerCalls(array) {
   var wordCount = array.map(function(x){return x.length});
   function greaterThanFour(element, index, array){
@@ -24,8 +27,11 @@ function longPlaneteerCalls(array) {
   } return wordCount.some(greaterThanFour);
 }
 
+
+//is there specific types of cheese? if so, return the cheese!
+
 function findTheCheese (array) {
-  var foodList = array.toString();
+  var foodList = array.toString(); 
   if (foodList.includes("cheddar")){
     return "cheddar";
   } else if (foodList.includes("gouda")){

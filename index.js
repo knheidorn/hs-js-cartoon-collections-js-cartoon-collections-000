@@ -18,7 +18,7 @@ function summonCaptainPlanet(array){
 } 
 
 
-//Boolean 
+//Boolean based on element count of each string in array
 
 function longPlaneteerCalls(array) {
   var wordCount = array.map(function(x){return x.length});

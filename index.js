@@ -3,7 +3,7 @@
 function dwarfRollCall(dwarves) {
   var list = "";
   var halfList = dwarves.length/2;
-  for (let i = 0; i<halfList; i++){
+  for (let i = halfList; i<dwarves.length; i++){
     list += i+1 + ". "+ dwarves[i] + " ";
   } return(list); 
 } 

@@ -1,7 +1,6 @@
 function dwarfRollCall(dwarves) {
-  var i;
   var list = "";
-  for (i = 0; i<dwarves.length; i++){
+  for (let i = 0; i<dwarves.length; i++){
     list += i+1 + ". "+ dwarves[i] + " ";
   } return list;
 }
